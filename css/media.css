@@ -1,0 +1,139 @@
+
+@media screen and (max-width: 857px){
+    /*----------------S----HEADER--------------------------*/
+
+    nav ul li a {
+        margin-right: 30px;
+    }
+    /*----------------E----HEADER--------------------------*/
+}
+
+
+
+@media screen and (max-width: 768px){
+    /*---------------S-----HEADER--------------------------*/
+    nav ul li a {
+        margin-right: 0;
+    }
+    /*----------------E----HEADER--------------------------*/
+    .top-slider {
+        padding-top: 90px;
+        padding-bottom: 150px;
+    }
+    .ts-container h2 {
+        font-size: 35px;
+    }
+    .ts-container p {
+        font-size: 16px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px){
+    /*-------------S-------HEADER--------------------------*/
+    .logo {
+        margin-right: 170px;
+    }
+    nav ul {
+        display: block;
+    }
+    nav ul li {
+        width: 100%;
+        margin-right: 10px;
+    }
+    nav ul li a {
+        padding: 0 10px 0 5px;
+        width: 100%;
+        display: flex;
+    }
+    /*---------------E-----HEADER--------------------------*/
+/*-------------------------S----MAIN------------------*/
+    .top-slider {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .ts-container h2 {
+        font-size: 28px;
+    }
+    .ts-container p {
+        font-size: 14px;
+    }
+    /*------------------------*/
+    .specialize-container {
+        width: 100%;
+        padding-top: 40px;
+    }
+    .specialize-container h3 {
+        font-size: 25px;
+    }
+    .specialize-container p {
+        font-size: 18px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 420px){
+    /*--------------S------HEADER--------------------------*/
+    .button-menu {
+        display: block;
+        padding: 0 16px 0 10px;
+    }
+    .h-container{
+        width: 100%;
+        justify-content: space-around;
+        align-items: normal;
+    }
+
+    .logo {
+        margin-right: 0;
+    }
+
+    nav {
+        margin-top: 43px;
+    }
+
+    nav ul {
+        display: none;
+    }
+    nav ul li {
+        display: flex;
+    }
+
+    nav ul li a {
+        margin-right: 0;
+        padding: 0 10px 0 9px;
+        width: 100%;
+        display: block;
+    }
+    
+    input#check-menu:checked + label.button-menu {
+        background-color: #d7d7d7;
+        color: #fff;
+    }
+    input#check-menu:checked ~ ul {
+        display: block;
+    }
+    input#check-menu:checked ~ label.button-menu i.bar{
+        display: none;
+    }
+    input#check-menu:checked ~ label.button-menu i.close{
+        display: block;
+    }
+    /*---------------E-----HEADER--------------------------*/
+
+
+    .top-slider {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .ts-container h2 {
+        font-size: 24px;
+    }
+    .ts-container p {
+        font-size: 12px;
+        display: inline-block;
+    }
+}

@@ -1,0 +1,192 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #f9f9f9;
+    padding: 22px 0;
+}
+
+.h-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cb-menu {
+    display: none;
+}
+
+.button-menu i {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button-menu {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    color: #000;
+    padding: 27px 10px 30px 9px;
+    margin-right: 60px;
+}
+nav ul li a:hover{
+    background-color: #ffea00;
+}
+nav ul li:last-child a{
+    margin-right: 0;
+}
+
+label.button-menu i.close {
+    display: none;
+    padding: 4px 0;
+}
+/*END HEADER----------------------*/
+
+.top-slider {
+    background-image: url("../img/slider_bg.jpg");
+    background-size: cover;
+    padding-top: 123px;
+    padding-bottom: 303px;
+}
+.ts-container {
+    width: 85%;
+    margin: 0 auto;
+}
+.ts-container h2 {
+    text-transform: uppercase;
+    font-size: 70px;
+    background-color: #ffea00;
+    display: inline;
+    padding: 0 10px;
+}
+.ts-container :nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.ts-container p {
+    background-color: #414146;
+    display: inline;
+    color: #fff;
+    padding: 0 5px;
+    font-size: 24px;
+}
+/*---END TOP-SLIDER-----*/
+/*-------------------------------------*/
+/*------SPECIALIZE------*/
+.specialize-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.specialize-container h3 {
+    color: #424147;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: normal;
+}
+.specialize-container p {
+    font-size: 24px;
+    color: #424147;
+}
+.specialize-container .page {
+    margin-bottom: 40px;
+}
+
+
+
+.card-items {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.specialize-card {
+    margin-bottom: 15px;
+}
+.top-card {
+    display: flex;
+}
+.icon {
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffea00;
+    width: 250px;
+    height: 208px;
+    text-transform: uppercase;
+}
+
+.bot-card p {
+    background-color: #414146;
+    color: #fff;
+    text-align: left;
+    padding: 0 17px 6px 17px;
+    font-size: 20px;
+}
+/*----END-----SPECIALIZE SECTION--------*/
+/*----------------------------------------------*/
+/*------------PORTFOLIO SECTION------------*/
+
+.portf-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.portf-container button {
+    border: none;
+    margin-top: 90px;
+    margin-bottom: 17px;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 10px;
+}
+.portf-container button :hover{
+    background-color: #000;
+    transition: .5s;
+    color: #fffb00;
+    border: 1px;
+    border-radius: 10px;
+}
+.portf-container button p {
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #424147;
+    color: #ffea00;
+    padding: 8px 28px;
+    transition: .5s;
+    border-radius: 5px;
+}
+.portf-container div p {
+    font-size: 16px;
+    color: #424146;
+    margin: 10px 0;
+    line-height: 16px;
+}
+
+.portf-img {
+    margin-top: 25px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.portf-img img {
+    margin-bottom: 25px;
+}
+
